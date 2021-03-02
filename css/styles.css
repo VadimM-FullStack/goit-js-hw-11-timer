@@ -1,0 +1,28 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  padding: 3rem;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.value {
+  margin-right: 5px;
+  color: rgb(177, 77, 77);
+  font-size: 50px;
+}
+
+.label {
+  margin-right: 30px;
+  color: rgb(77, 77, 77);
+  font-size: 20px;
+}
